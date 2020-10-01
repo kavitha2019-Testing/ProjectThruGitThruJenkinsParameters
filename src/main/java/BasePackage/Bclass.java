@@ -14,7 +14,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 public class Bclass {
     public WebDriver driver;
-
+ // opening browser
     @BeforeMethod
     public void browseropen() {
         if (System.getProperty("browser").equalsIgnoreCase("chrome")) {
